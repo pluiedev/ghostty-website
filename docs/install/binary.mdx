@@ -195,11 +195,12 @@ distros, and will fail to find them if not manually worked around.
 There are multiple ways to fix this, either by running Ghostty with a
 wrapper program like [`nixGL`] or [`nix-gl-host`] that sets up the correct
 OpenGL driver paths, or use a more permanent solution like
-[`nix-system-graphics`].
+[`nix-system-graphics`] or enabling the GPU on [`non-nixos`] systems.
 
 [`nixGL`]: https://github.com/nix-community/nixGL
 [`nix-gl-host`]: https://github.com/numtide/nix-gl-host
 [`nix-system-graphics`]: https://github.com/soupglasses/nix-system-graphics
+[`non-nixos`]: https://nix-community.github.io/home-manager/index.xhtml#sec-usage-gpu-non-nixos
 
 Other than that, instructions are nearly identical to NixOS.
 
